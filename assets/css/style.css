@@ -21,8 +21,42 @@ body {
 /* Header */
 header {
     background-color: lightgreen;
-    font-family: 'Outfit', sans-serif;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
+    z-index: 99;
+    position: fixed;
 }
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    color: #252525;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 180%;
+}
+ /* Navigation Bar*/
+ ul {
+    list-style-type: none;
+ }
+
+ #menu {
+    font-size: ;
+    letter-spacing: 4px;
+ }
+
+ #menu > li {
+    margin-bottom: 1em;
+ }
+
+ .active {
+    border-bottom: 1px solid #3a3a3a;
+ }
 
 /* Main Content*/
 main {
