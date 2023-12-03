@@ -14,12 +14,14 @@ body {
     display: flex;
     flex-direction: column;
     /* generic Project styles */
-    color: darkslategray
+    color: darkslategray;
+    font-family: 'Roberto Condensed', sans-serif;
 }
 
 /* Header */
 header {
-    background-color: lightgreen
+    background-color: lightgreen;
+    font-family: 'Outfit', sans-serif;
 }
 
 /* Main Content*/
