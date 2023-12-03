@@ -101,10 +101,12 @@ footer {
         position: relative;
         width: fit-content;
         padding-right: 1rem;
+        box-shadow: none;
     }
 
     #menu {
         display: flex;
+        margin-top: 40px;
     }
 
     #menu > li {
@@ -116,8 +118,14 @@ footer {
     }
 
     #logo {
-        font-size: 360%;
-        line-height: 1,2;
+        font-size: 330%;
+        line-height: 1.2;
         margin: 0 0.5rem;
     }   
 }
+/* Main Content */
+main {
+    /* push main content down to accommodate larger header*/
+    margin-top: 75px;
+}
+
