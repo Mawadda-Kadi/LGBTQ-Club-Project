@@ -109,6 +109,10 @@ footer {
         margin-top: 40px;
     }
 
+    #menu a:hover {
+              border-bottom: 1px solid #3a3a3a;
+    }
+
     #menu > li {
         padding-left: 1rem;
     }
@@ -129,3 +133,10 @@ main {
     margin-top: 75px;
 }
 
+/* Larger devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    /* Header */
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
