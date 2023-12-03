@@ -7,14 +7,14 @@
 
 /* Header */
 header {
-    color: #000
+    background-color: lightgreen
 }
 
 /* Main Content*/
 main {
-    color: pink;
+    background-color: pink;
 }
 /* Footer */
 footer {
-    color: aqua;
+    background-color: aqua;
 }
