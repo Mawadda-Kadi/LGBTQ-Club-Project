@@ -4,3 +4,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Header */
+header {
+    color: #000
+}
+
+/* Main Content*/
+main {
+    color: pink;
+}
+/* Footer */
+footer {
+    color: aqua;
+}
