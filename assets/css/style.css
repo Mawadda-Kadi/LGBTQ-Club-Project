@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* generic Project styles */
+    color: darkslategray
+}
+
 /* Header */
 header {
     background-color: lightgreen
