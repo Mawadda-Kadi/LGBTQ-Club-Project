@@ -96,7 +96,22 @@ nav {
 footer {
     background-color: aqua;
     flex-shrink: 0;
-    height: 30px;
+    height: 40px;
+}
+
+#social-media {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 7px 0;
+}
+
+#social-media i {
+    font-size: 150%;
+    padding: 5%;
+    color: #3a3a3a;
+    cursor: pointer;
 }
 
 /* Media Query: tablets and larger (768px and up) */
