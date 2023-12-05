@@ -125,6 +125,30 @@ nav {
     text-transform: capitalize;
     font-size: 110%;
 }
+
+/* Home Cards */
+#home-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centers the items horizontally */
+}
+
+.home-card {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    flex: 1; /* to make each card take up an equal amount of space on its row */
+    flex-grow: 1; /* ensures that each card grows to fill the available space */
+    text-align: left;
+}
+
+#values-list {
+    list-style-type: none;
+}
 /* Footer */
 footer {
     background-color: aqua;
