@@ -149,6 +149,11 @@ nav {
 #values-list {
     list-style-type: none;
 }
+.list-item-beginning {
+    text-decoration: underline palevioletred;
+    text-transform: uppercase;
+    font-weight: 500;
+}
 /* Footer */
 footer {
     background-color: aqua;
