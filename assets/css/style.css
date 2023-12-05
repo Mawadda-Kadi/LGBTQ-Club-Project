@@ -94,12 +94,27 @@ main {
     margin-top: 40px;
 }
 
-/* Hero Image */
-#hero-image {
+/* Hero Images */
+.hero-image {
     height: 350px;
     width: 100%;
-    background: url("../media/hero-image-1.jpg") no-repeat center center/cover;
     position: relative;
+}
+
+#hero-image-home {
+    background: url("../media/hero-image-home.jpg") no-repeat center center/cover;
+}
+
+#hero-image-events {
+    background: url("../media/hero-image-events.jpg") no-repeat center center/cover;
+}
+
+#hero-image-resources {
+    background: url("../media/hero-image-resources.jpg") no-repeat center center/cover;
+}
+
+#hero-image-find-us {
+    background: url("../media/hero-image-find-us.jpg") no-repeat center center/cover;
 }
 
 #cover-text {
@@ -128,6 +143,16 @@ main {
     color: #000;
     text-transform: capitalize;
     font-size: 110%;
+}
+
+.subtitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #252525;
+    font-size: 1.8rem;
+    margin: 40px;
+    padding: 20px;
+    font-weight: bold;
+    background-color: #fff;
 }
 
 /* Home Cards */
