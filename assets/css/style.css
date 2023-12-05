@@ -215,15 +215,13 @@ main {
 /* Map */
 #map-container {
     width: 80%;
-    /* Adjust the width as needed */
     max-width: 600px;
-    /* Set a maximum width if desired */
-    margin: 0 auto;
     /* Center the container horizontally */
+    margin: 0 auto;
     overflow: hidden;
     position: relative;
-    padding-bottom: 56.25%;
-    /* Aspect ratio for a responsive container (16:9) */
+    padding-bottom: 5%;
+    height: 400px;
 }
 
 #map {
