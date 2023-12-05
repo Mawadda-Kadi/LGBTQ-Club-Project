@@ -212,6 +212,7 @@ main {
         flex-direction: column;
         width: calc(60vw - 192px);
         font-size: 21px;
+        padding: 20px;
 
     h3 {
             margin: 0;
