@@ -89,7 +89,7 @@ nav {
 
 /* Main Content*/
 main {
-    background-color: pink;
+    background-color: #fff8e7;
     flex-grow: 1;
     margin-top: 40px;
 }
@@ -118,7 +118,7 @@ main {
 }
 
 #cover-text {
-    background-color: rgba(128, 128, 128, 0.6);
+    background-color: rgba(255, 153, 221, 0.6);
     position: absolute;
     bottom: 30px;
     width: 45%;
@@ -133,16 +133,18 @@ main {
 #cover-text>h2 {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
-    color: #000;
+    color: #fff;
     text-transform: capitalize;
     font-size: 130%;
+    border-color: #000;
 }
 
 #cover-text>h3 {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #000;
+    color: #fff;
     text-transform: capitalize;
     font-size: 110%;
+    border: #000;
 }
 
 .subtitle {
