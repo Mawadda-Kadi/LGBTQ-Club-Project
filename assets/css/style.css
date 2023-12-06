@@ -190,182 +190,81 @@ main {
 }
 
 /* Events Cards */
+#events-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 20px;
+}
+
 .events-card {
     background: #f6f6f6;
-    border-radius: 24px 24px 24px 48px;
-    padding: 48px 48px 48px 308px;
-    margin: 84px 0;
-    width: 50vw;
-    max-width: 700px;
-    min-width: 400px;
+    border-radius: 24px;
     display: flex;
-    flex-direction: row;
-    align-self: flex-start;
-    position: relative;
+    flex-direction: column;
+    /* Change to column for smaller screens */
+    overflow: auto;
     box-shadow:
-        5px 0 0 0 fade(#ccc, 30%),
-        -5px 0 0 0 fade(#ccc, 30%),
-        0 5px 0 0 fade(#ccc, 30%);
+        5px 0 0 0 rgba(204, 204, 204, 0.3),
+        -5px 0 0 0 rgba(204, 204, 204, 0.3),
+        0 5px 0 0 rgba(204, 204, 204, 0.3);
+}
 
-    .text-content {
-        display: flex;
-        flex-direction: column;
-        width: calc(60vw - 192px);
-        font-size: 21px;
-        padding: 20px;
+.events-card-image {
+    max-height: 200px;
+    overflow: hidden;
+    border-radius: 24px 24px 0 0;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.text-content {
+    padding: 20px;
 
     h3 {
-            margin: 0;
-            font-size: 1.5em;
-            max-width: 20ch;
-        }
+        margin: 0;
+        font-size: 1.5em;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
 
     p {
-            margin: 16px 0 24px;
-            max-width: 36ch;
-        }
+        margin: 16px 0 24px;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        word-wrap: break-word;
+        line-height: 1.2em;
+    }
 
     a {
-            border: 3px solid #000;
-            color: #000;
-            align-self: flex-start;
-            text-decoration: none;
-            padding: 16px 32px;
-            border-radius: 12px;
-            transition: 400ms all;
+        align-self: flex-start;
+        text-decoration: none;
+        padding: 16px 32px;
+        border-radius: 12px;
+        transition: background 400ms, color 400ms;
 
-            &:hover {
-                background: #000;
-                color: white
-            }
+        &:hover {
+            background: #000;
+            color: white;
         }
     }
-
-    .event-image {
-        width: 150px;
-        height: 100%;
-        position: absolute;
-        top: -24px;
-        left: 24px;
-        overflow: hidden;
-        border-radius: 24px;
-        box-shadow:
-            1px 2px 6px fade(white, 25%),
-            2px 6px 12px fade(black, 25%);
-
-    .events-image>img {
-        height: 110%
-        }
-    }
-
-    &:nth-of-type(odd) {
-        margin: 0 0 0 248px;
-        border-radius: 24px 24px 48px 24px;
-        padding: 48px 308px 48px 60px;
-
-        .events-image {
-            right: 24px;
-            left: auto
-        }
-
-        .text-content a {
-            align-self: flex-start
-        }
-    }
-
-}
-
-#events-layout {
-    margin: auto;
-    display: block;
-    width: calc(60vw + 248px);
-    max-width: calc(920px + 248px);
-    min-width: calc(640px + 248px);
-    padding: 96px;
-}
-
-
-@media all and (max-width:1100px) {
- 
-    #events-layout {
-        width: 100%;
-        max-width: 100%;
-        min-width: 100%;
-        padding: 96px 48px 24px;
-    }
-
-    .events-card {
-        width: 100%;
-        max-width: 100%;
-        min-width: 100%;
-
-        .text-content {
-            width: 100%
-        }
-
-        &:nth-of-type(odd) {
-            margin: 0
-        }
-    }
-}
-
-@media all and (max-width:720px) {
-    #events-layout { /* ??????? */
-        padding: 48px 24px 0;
-    }
-
-    .events-card {
-        margin: 64px 0;
-        padding: 88px 36px 36px;
-        flex-direction: column;
-        border-radius: 24px;
-
-        &:nth-of-type(odd) {
-            padding: 88px 36px 36px;
-            border-radius: 24px;
-        }
-
-    .text-content {
-        h3 {
-                max-width: calc(100% - 150px);
-                font-size: 1em
-            }
-
-        p,
-        a {
-                font-size: 0.8em
-            }
-        }
-
-        .events-image,
-        &:nth-of-type(odd) .visual {
-            width: 150px;
-            height: 150px;
-            right: 16px;
-            left: auto;
-
-            .events>img {
-                width: 100%;
-                height: auto
-            }
-        }
-    }
-}
-html {
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
 }
 
 /* Find Us Cards */
 #find-us-layout {
     display: flex;
     flex-wrap: wrap;
-    /* centers the items horizontally */
+    /* to center the items horizontally */
     justify-content: center;
 }
 
@@ -380,7 +279,7 @@ html {
     flex: 1;
     /* to make each card take up an equal amount of space on its row */
     flex-grow: 1;
-    /* ensures that each card grows to fill the available space */
+    /* to ensure that each card grows to fill the available space */
     text-align: left;
 }
 
@@ -426,8 +325,31 @@ footer {
     cursor: pointer;
 }
 
-/* Media Query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+/* Media Query: screens between 450px and 768px */
+@media screen and (min-width: 450px) and (max-width: 768px) {
+
+#events-layout {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        /* Adjust as needed to control the space between cards */
+    }
+
+    .events-card {
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+   .events-card-image {
+       width: 100px;
+       height: 100px;
+       object-fit: fill;
+       border-radius: 12px;
+
+   }
+}
+
+/* Media Query: tablets and larger (769px and up) */
+@media screen and (min-width: 769px) {
 
     /* Header */
     nav {
@@ -462,7 +384,29 @@ footer {
         right: 50px;
         font-size: larger;
     }
+
+    /* Events Card */
+    #events-layout {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        /* Adjust as needed to control the space between cards */
+    }
+
+    .events-card {
+        flex-direction: row;
+    }
+
+    .events-card-image {
+        width: 100%;
+        min-width: 200px;
+        max-height: 240px;
+    }
+
+    /* Image position changes for odd cards on larger screens */
+    .events-card:nth-of-type(odd) .events-card-image {
+        order: 2;
 }
+
 
 /* Larger devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -470,5 +414,23 @@ footer {
     /* Header */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* Events Cards */
+    #events-layout {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .events-card {
+        flex-direction: row-reverse;
+    }
+
+    /* Reverse order for odd cards */ /* not working */
+    .events-card:nth-of-type(odd) .events-card-image {
+         order: 2;
+    
+
+    .events-card-image {
+        width: 100%;
     }
 }
