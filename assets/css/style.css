@@ -159,7 +159,7 @@ main {
 #home-layout {
     display: flex;
     flex-wrap: wrap;
-    /* centers the items horizontally */
+    /* to center the items horizontally */
     justify-content: center;
 }
 
@@ -202,7 +202,7 @@ main {
     border-radius: 24px;
     display: flex;
     flex-direction: column;
-    /* Change to column for smaller screens */
+    /* to change to column for smaller screens */
     overflow: auto;
     box-shadow:
         5px 0 0 0 rgba(204, 204, 204, 0.3),
@@ -287,7 +287,7 @@ main {
 #map-container {
     width: 80%;
     max-width: 600px;
-    /* Center the container horizontally */
+    /* to center the container horizontally */
     margin: 0 auto;
     overflow: hidden;
     position: relative;
@@ -324,14 +324,13 @@ footer {
     color: #3a3a3a;
     cursor: pointer;
 }
-
-/* Media Query: screens between 450px and 768px */
+/* Media Query: srceens (min-width: 450px) and (max-width: 768px) */
 @media screen and (min-width: 450px) and (max-width: 768px) {
-
-#events-layout {
-        grid-template-columns: repeat(2, 1fr);
+    #events-layout {
+        display: grid;
+        grid-template-columns: 1fr;
         gap: 30px;
-        /* Adjust as needed to control the space between cards */
+        padding: 20px;
     }
 
     .events-card {
@@ -339,13 +338,20 @@ footer {
         margin-bottom: 20px;
     }
 
-   .events-card-image {
-       width: 100px;
-       height: 100px;
-       object-fit: fill;
-       border-radius: 12px;
+    .events-card-image {
+        width: 100%;
+        max-width: 240px;
+        height: 100%;
+        max-height: 240px;
+        overflow: hidden;
 
-   }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 12px;
+        }
+    }
 }
 
 /* Media Query: tablets and larger (769px and up) */
@@ -389,7 +395,6 @@ footer {
     #events-layout {
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
-        /* Adjust as needed to control the space between cards */
     }
 
     .events-card {
@@ -402,35 +407,42 @@ footer {
         max-height: 240px;
     }
 
-    /* Image position changes for odd cards on larger screens */
+        /* to reverse order for odd cards */
     .events-card:nth-of-type(odd) .events-card-image {
         order: 2;
-}
-
-
-/* Larger devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-
-    /* Header */
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
     }
 
-    /* Events Cards */
-    #events-layout {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
-    .events-card {
-        flex-direction: row-reverse;
-    }
 
-    /* Reverse order for odd cards */ /* not working */
-    .events-card:nth-of-type(odd) .events-card-image {
-         order: 2;
-    
+    /* Larger devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
 
-    .events-card-image {
-        width: 100%;
+        /* Header */
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
+
+        /* Events Cards */
+        #events-layout {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+
+        .events-card {
+            flex-direction: row-reverse;
+        }
+
+        /* to reverse order for odd cards */
+        .events-card:nth-of-type(odd) .events-card-image {
+            order: 2;
+
+            
+            .events-card-image {
+                width: 100%;
+                max-width: 240px;
+            }
+     
+                img {
+            max-width: 240px;
+        }
     }
-}
+    }
