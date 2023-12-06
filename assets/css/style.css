@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background-color: lightgreen;
+    background-color: #800080;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
@@ -33,12 +33,12 @@ header {
 
 header a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 h1 {
     font-family: 'Outfit', sans-serif;
-    color: #252525;
+    color: #fff;
     text-transform: uppercase;
     font-size: 2rem;
     margin: 0;
@@ -47,7 +47,7 @@ h1 {
 /* Navigation Bar*/
 
 #menu {
-    font-size: 100%;
+    font-size: 110%;
     letter-spacing: 1px;
     list-style-type: none;
     display: flex;
@@ -58,13 +58,13 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #fff;
 }
 
 /* Navigation bar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: lightgreen;
+    background-color: #fff8e7;
     width: 100%;
     left: 0;
     padding: 1rem;
@@ -136,7 +136,6 @@ main {
     color: #fff;
     text-transform: capitalize;
     font-size: 130%;
-    border-color: #000;
 }
 
 #cover-text>h3 {
@@ -144,17 +143,16 @@ main {
     color: #fff;
     text-transform: capitalize;
     font-size: 110%;
-    border: #000;
 }
 
 .subtitle {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #252525;
+    color: #fff;
     font-size: 1.8rem;
     margin: 40px;
     padding: 20px;
     font-weight: bold;
-    background-color: #fff;
+    background-color: #ff99dd;
 }
 
 /* Home Cards */
@@ -167,12 +165,13 @@ main {
 
 .home-card {
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.1);
+    box-shadow: fff(0, 0, 0, 0.1);
     max-width: 400px;
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
-    background-color: #fff;
+    background: rgb(128, 0, 128);
+        background: linear-gradient(90deg, rgba(128, 0, 128, 1) 0%, rgba(255, 153, 221, 1) 82%);
     /* to make each card take up an equal amount of space on its row */
     flex: 1;
     /* ensures that each card grows to fill the available space */
