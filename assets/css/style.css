@@ -89,7 +89,7 @@ nav {
 
 /* Main Content*/
 main {
-    background-color: #ff99dd;
+    background-color: #fbd7ef;
     flex-grow: 1;
     margin-top: 40px;
 }
@@ -165,17 +165,28 @@ main {
 
 .home-card {
     border-radius: 10px;
-    box-shadow: fff(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
-    background-color: #fff8e7;
     /* to make each card take up an equal amount of space on its row */
     flex: 1;
     /* ensures that each card grows to fill the available space */
     flex-grow: 1;
     text-align: left;
+    transition: box-shadow 0.3s ease
+    -in-out;
+    border: 5px solid #ddd;
+    transform: translateY(0);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    background: linear-gradient(45deg, #f2f2f2, #e6e6e6, #fff8e7);
+}
+
+.home-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    background: lineargradient(45deg, #f6f2ea, #fff8e7);
 }
 
 #values-list {
