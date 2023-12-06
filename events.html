@@ -1,170 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Meta Tags for Search Engines -->
-    <meta name="description" content="LGBTQ+ Club in Leipzig, Germany, Events and Resources for LGBTQ+ Community">
-    <meta name="keywords" content="LGBTQ community, lgbt, community, event, resourses, lesbian, gay, queer, trans, bisexual, Leibzig, Germany">
-    
+    <meta
+      name="description"
+      content="LGBTQ+ Club in Leipzig, Germany, Events and Resources for LGBTQ+ Community"
+    />
+    <meta
+      name="keywords"
+      content="LGBTQ community, lgbt, community, event, resourses, lesbian, gay, queer, trans, bisexual, Leibzig, Germany"
+    />
+
     <!-- Title -->
     <title>LGBTQ+ Club</title>
-    
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/madia/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/madia/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/madia/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="../assets/madia/favicon_io/site.webmanifest">
-    
-    <!-- StyleSheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
 
-<body>
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/media/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/media/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/media/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/madia/favicon_io/site.webmanifest" />
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
     <!-- Header -->
     <header>
-        <a href="index.html">
-            <h1 id="logo">LGBTQ+ Club</h1>
-        </a>
+      <a href="index.html">
+        <h1 id="logo">LGBTQ+ Club</h1>
+      </a>
 
-        <!-- Navigation Bar -->
-            <!-- Navigation Bar Toggle -->
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">
-            <i class="fa-solid fa-bars"></i>
-        </label>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="events.html" class="active">Events</a>
-                </li>
-                <li>
-                    <a href="resources.html">Resources</a>
-                </li>
-                <li>
-                    <a href="find-us.html">Find Us</a>
-                </li>
-            </ul>
-        </nav>
+      <!-- Navigation Bar -->
+      <!-- Navigation Bar Toggle -->
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="events.html" class="active">Events</a>
+          </li>
+          <li>
+            <a href="resources.html">Resources</a>
+          </li>
+          <li>
+            <a href="find-us.html">Find Us</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    
+
     <!-- Main Content -->
     <main>
-        <section class="hero-image" id="hero-image-events">
-            <div id="cover-text">
-                <h2>LGBTQ+ Club</h2>
-                <h3>a home for all</h3>
-            </div>
+      <section class="hero-image" id="hero-image-events">
+        <div id="cover-text">
+          <h2>LGBTQ+ Club</h2>
+          <h3>a home for all</h3>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h2 class="subtitle">
+            There’s nothing as powerful as feeling comfortable in our own skin.
+            To fearlessly live our lives.
+          </h2>
+        </div>
+      </section>
+
+      <article id="events-layout">
+        <section class="events-card">
+          <div class="events-card-image">
+            <img src="./assets/media/drama-queers-events.jpg" alt="" />
+          </div>
+          <div class="text-content">
+            <h3>DramaQueers</h3>
+            <p>
+              DramaQueers are a monthly meeting for LGBTQ+ theatre makers,
+              actors, directors and writers.
+            </p>
+            <p>
+              The group runs workshops and drama practice for people of all
+              levels once a month at the Centre.
+            </p>
+            <a href="sign-up-form">Join Us</a>
+          </div>
         </section>
 
-        <section>
-            <div>
-                <h2 class="subtitle">There’s nothing as powerful as feeling comfortable in our own skin. To fearlessly live our lives.</h2>
-            </div>
+        <section class="events-card">
+          <div class="events-card-image">
+            <img
+              src="./assets/media/youth-club-events.jpg"
+              alt=""
+              class="rigth"
+            />
+          </div>
+          <div class="text-content">
+            <h3>Youth Club</h3>
+            <p>A regular group for LGBTQ+ people aged 13-19.</p>
+            <p>
+              We can help to understand your identity and share experiences of
+              coming out.
+            </p>
+            <p>
+              We discuss topics including bullying, feeling safe, life at home,
+              education and work.
+            </p>
+            <a href="sign-up-form">Join Us</a>
+          </div>
         </section>
 
-        <article id="events-layout">
-            <section class="events-card">
-                <div class="events-card-image">
-                    <img src="../assets/media/drama-queers-events.jpg" alt="" />
-                </div>
-                <div class="text-content">
-                    <h3>DramaQueers</h3>
-                    <p>DramaQueers are a monthly meeting for LGBTQ+ theatre makers, actors, directors and writers.</p>
-                    <p>The group runs workshops and drama practice for people of all levels once a month at the Centre.</p>
-                    <a href="sign-up-form">Join Us</a>
-                </div>
-            </section>
+        <section class="events-card">
+          <div class="events-card-image">
+            <img src="./assets/media/act-up-germany-events.jpg" alt="" />
+          </div>
+          <div class="text-content">
+            <h3>Act Up Germany</h3>
+            <p>
+              ACT UP is a network of activists working towards ending the HIV
+              pandemic through direct action and campaigning.
+            </p>
+            <p>
+              The Leipzig group will be meeting once a month at the Centre from
+              Jan 2024.
+            </p>
+            <a href="sign-up-form">Join Us</a>
+          </div>
+        </section>
 
-            <section class="events-card">
-                <div class="events-card-image">
-                    <img src="../assets/media/youth-club-events.jpg" alt="" />
-                </div>
-                <div class="text-content">
-                    <h3>Youth Club</h3>
-                    <p>A regular group for LGBTQ+ people aged 13-19.</p>
-                    <p>We can help to understand your identity and share experiences of coming out.</p>
-                    <p>We discuss topics including bullying, feeling safe, life at home, education and work.</p>
-                    <a href="sign-up-form">Join Us</a>
-                </div>
-            </section>
+        <section class="events-card">
+          <div class="events-card-image">
+            <img
+              src="./assets/media/queer-refugees-unite-events.jpg"
+              alt=""
+              class="rigth"
+            />
+          </div>
+          <div class="text-content">
+            <h3>Queer Refugees Unite</h3>
+            <p>A group for LGBTQ asylum seekers and refugees.</p>
+            <p>
+              we hare experiences and tips on adapting to a new culture,
+              especially if it's less accepting of LGBTQ+ individuals.
+            </p>
+            <a href="sign-up-form">Join Us</a>
+          </div>
+        </section>
 
-            <section class="events-card">
-                <div class="events-card-image">
-                    <img src="../assets/media/act-up-germany-events.jpg" alt="" />
-                </div>
-                <div class="text-content">
-                    <h3>Act Up Germany</h3>
-                    <p>ACT UP is a network of activists working towards ending the HIV pandemic through direct action and campaigning.</p>
-                    <p>The Leipzig group will be meeting once a month at the Centre from Jan 2024.</p>
-                    <a href="sign-up-form">Join Us</a>
-                </div>
-            </section>
-
-            <section class="events-card">
-                <div class="events-card-image">
-                    <img src="../assets/media/queer-refugees-unite-events.jpg" alt="" />
-                </div>
-                <div class="text-content">
-                    <h3>Queer Refugees Unite</h3>
-                    <p>A group for LGBTQ asylum seekers and refugees.</p>
-                    <p>we hare experiences and tips on adapting to a new culture, especially if it's less accepting of LGBTQ+ individuals.</p>
-                    <a href="sign-up-form">Join Us</a>
-                </div>
-            </section>
-
-            <section class="events-card">
-                <div class="events-card-image">
-                    <img src="../assets/media/pride-parade-events.jpg" alt="" />
-                </div>
-                <div class="text-content">
-                    <h3>Pride Parade</h3>
-                    <p>CSD Deutschland (Christopher Street Day) is an annual event celebrated in various German cities to advocate for the
-                    rights of LGBTQ+ people.</p>
-                    <p>We gather at the LGPTQ+ Club at 10:00, then we march together.</p>
-                    <a href="sign-up-form">Join Us</a>
-                </div>
-            </section>
-        </article>
-    
+        <section class="events-card">
+          <div class="events-card-image">
+            <img src="./assets/media/pride-parade-events.jpg" alt="" />
+          </div>
+          <div class="text-content">
+            <h3>Pride Parade</h3>
+            <p>
+              CSD Deutschland (Christopher Street Day) is an annual event
+              celebrated in various German cities to advocate for the rights of
+              LGBTQ+ people.
+            </p>
+            <p>
+              We gather at the LGPTQ+ Club at 10:00, then we march together.
+            </p>
+            <a href="sign-up-form">Join Us</a>
+          </div>
+        </section>
+      </article>
     </main>
 
     <!-- Footer -->
     <footer>
-        <ul id="social-media">
-            <li>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">
-                    <i class="fa-brands fa-square-instagram"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
-                    <i class="fa-brands fa-square-facebook"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our X-Twitter page (opens in a new tab)">
-                    <i class="fa-brands fa-square-x-twitter"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Youtube page (opens in a new tab)">
-                    <i class="fa-brands fa-square-youtube"></i>
-                </a>
-            </li>
-        </ul>
+      <ul id="social-media">
+        <li>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our X-Twitter page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-square-x-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Youtube page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-square-youtube"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
-    
+
     <!-- Font Awesome Kit -->
-    <script src="https://kit.fontawesome.com/5b652b7654.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/5b652b7654.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
