@@ -90,7 +90,7 @@ nav {
 
 /* Main Content*/
 main {
-    background-color: #fbdef1;
+    background-color: #fce5f4;
     flex-grow: 1;
     margin-top: 40px;
 }
@@ -176,42 +176,6 @@ main {
     font-weight: bold;
 }
 
-/* Testimonials Section */
-#testimonials-section {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-#testimonials-section h2 {
-    font-size: 2.5rem;
-    color: #800080;
-    margin-bottom: 20px;
-}
-
-.testimonial {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    padding: 20px;
-    margin: 20px auto;
-    text-align: left;
-}
-
-.testimonial p {
-    font-size: 1.2rem;
-    color: #333;
-}
-
-.subtitle {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #000;
-    font-size: 1.5rem;
-    margin: 40px;
-    padding: 20px;
-    font-weight: bold;
-}
-
 /* Home Cards & Resources Cards */
 #home-layout,
 #resources-layout {
@@ -226,6 +190,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     max-width: 400px;
+    min-width: 250px;
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
@@ -259,11 +224,38 @@ main {
     width: fit-content;
 }
 
-/* to make each item distinguished*/
+        /* to make each item distinguished*/
 .list-item-beginning {
     text-decoration: underline palevioletred;
     text-transform: uppercase;
     font-weight: 500;
+}
+
+/* Testimonials Section */
+#testimonials-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#testimonials-section h2 {
+    font-size: 2.5rem;
+    color: #800080;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    background-color: #f3f0e9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    color: #333;
 }
 
 /* Events Cards */
@@ -501,6 +493,26 @@ footer {
     }
     #cover-text>h3 {
         text-align: center;
+    }
+ 
+    /* Welcome Section $ Testimonials Section */
+    #welcome-section,
+    #testimonials-section {
+         padding: 60px 20px;
+    }
+    
+    .welcome-message h2,
+    #testimonials-section h2 {
+         font-size: 3rem;
+    }
+
+    .welcome-message p,
+    .testimonial p {
+        font-size: 1.2rem;
+    }
+    
+    .testimonial {
+        max-width: 800px;
     }
 
     /* Events Card */
