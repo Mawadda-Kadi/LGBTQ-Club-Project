@@ -1,164 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Meta Tags for Search Engines -->
-    <meta name="description" content="LGBTQ+ Club in Leipzig, Germany, Events and Resources for LGBTQ+ Community">
-    <meta name="keywords" content="LGBTQ community, lgbt, community, event, resourses, lesbian, gay, queer, trans, bisexual, Leibzig, Germany">
-    
+    <meta
+      name="description"
+      content="LGBTQ+ Club in Leipzig, Germany, Events and Resources for LGBTQ+ Community"
+    />
+    <meta
+      name="keywords"
+      content="LGBTQ community, lgbt, community, event, resourses, lesbian, gay, queer, trans, bisexual, Leibzig, Germany"
+    />
+
     <!-- Title -->
     <title>LGBTQ+ Club</title>
-    
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/media/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/media/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/media/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="./assets/media/favicon_io/site.webmanifest">
-    
-    <!-- StyleSheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
 
-<body>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/media/favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/media/favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/media/favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="./assets/media/favicon_io/site.webmanifest" />
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
     <!-- Header -->
     <header>
-        <a href="index.html">
-            <h1 id="logo">LGBTQ+ Club</h1>
-        </a>
+      <a href="index.html">
+        <h1 id="logo">LGBTQ+ Club</h1>
+      </a>
 
-        <!-- Navigation Bar -->
-            <!-- Navigation Bar Toggle -->
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">
-            <i class="fa-solid fa-bars"></i>
-        </label>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="events.html">Events</a>
-                </li>
-                <li>
-                    <a href="resources.html">Resources</a>
-                </li>
-                <li>
-                    <a href="find-us.html" class="active">Find Us</a>
-                </li>
-            </ul>
-        </nav>
+      <!-- Navigation Bar -->
+      <!-- Navigation Bar Toggle -->
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="events.html">Events</a>
+          </li>
+          <li>
+            <a href="resources.html">Resources</a>
+          </li>
+          <li>
+            <a href="find-us.html" class="active">Find Us</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    
+
     <!-- Main Content -->
     <main>
-        <section class="hero-image" id="hero-image-find-us">
-            <div id="cover-text">
-                <h2>LGBTQ+ Club</h2>
-                <h3>a home for all</h3>
-            </div>
-        </section>
-        
-        <section>
-        <div>
-            <h2 class="subtitle">Our Centre is open to our entire community to amplify all our voices, breakdown stigmas and support each other</h2>
+      <section class="hero-image" id="hero-image-find-us">
+        <div id="cover-text">
+          <h2>LGBTQ+ Club</h2>
+          <h3>a home for all</h3>
         </div>
-        </section>
+      </section>
 
-        <!-- Sign-up Form -->
-        <section id="signup-section">
-            <h2 class="subtitle">Sign Up for Our Events</h2>
-            <form id="signup-form">
-                <label for="full-name" placeholder="Enter Your Full Name">Full Name:</label>
-                <input type="text" id="full-name" name="full-name" required>
-        
-                <label for="email" placeholder="Enter Your Email">Email:</label>
-                <input type="email" id="email" name="email" required>
-        
-                <label for="pronouns">Preferred Pronouns:</label>
-                <select id="pronouns" name="pronouns" required>
-                    <option value="she">She/Her</option>
-                    <option value="he">He/Him</option>
-                    <option value="they">They/Them</option>
-                    <option value="other">Other</option>
-                </select>
-        
-                <label for="event">Select Event:</label>
-                <select id="event" name="event" required>
-                    <option value="drama-queers">DramaQueers</option>
-                    <option value="youth-club">Youth Club</option>
-                    <option value="act-up-germany">Act Up Germany</option>
-                    <option value="queer-refugees-unite">Queer Refugees Unite</option>
-                    <option value="pride-parade">Pride Parade</option>
-                </select>
-        
-                <button type="submit">Participate</button>
-            </form>
-        </section>
+      <section class="subtitle-section">
+        <div>
+          <h2 class="subtitle">
+            Our Centre is open to our entire community to amplify all our
+            voices, breakdown stigmas and support each other
+          </h2>
+        </div>
+      </section>
 
-        <section id="find-us-layout">
-            <div class="find-us-card">
-                <h3>Opening Hours</h3>
-                <p>Tues – Sat</p>
-                <p>09:00 – 15:00</p>
-                <p>Sun – Mon</p>
-                <p>Closed</p>
-            </div>
-            <div class="find-us-card">
-                <h3>Address</h3>
-                <p>LGPTQ+ Club</p>
-                <p>Leipziger Straße 1</p>
-                <p>12345 Leipzig</p>
-                <p><i class="fa-solid fa-phone"></i> 0123456789</p>
-            </div>
-        </section>
-        <section>
-            <div id="map-container">
-                <iframe id="map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d258573.89378025012!2d12.302184885911828!3d51.34188746838422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b171f6f9799f53%3A0x420ad308d0a69a37!2sLeipzig%2C%20Germany!5e0!3m2!1sen!2suk!4v1632391635455!5m2!1sen!2suk"
-                    width="700" height="500" <!-- Set the height based on the aspect ratio (16:9) -->
-                    style="border:0;"
-                    allowfullscreen=""
-                    loading="lazy"
-                    ></iframe>
-            </div>
-        </section>
+      <!-- Sign-up Form -->
+      <article class="find-us-layout">
+      <section id="signup-section">
+          <h2>Sign Up for Our Events</h2>
+          <form id="signup-form">
+            <label for="full-name">Full Name:</label>
+            <input
+              type="text"
+              id="full-name"
+              name="full-name"
+              placeholder="Enter Your Full Name"
+              required
+            />
+
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter Your Email"
+              required
+            />
+
+            <label for="pronouns">Preferred Pronouns:</label>
+            <select id="pronouns" name="pronouns" required>
+              <option value="she">She/Her</option>
+              <option value="he">He/Him</option>
+              <option value="they">They/Them</option>
+              <option value="other">Other</option>
+            </select>
+
+            <label for="event">Select Event:</label>
+            <select id="event" name="event" required>
+              <option value="drama-queers">DramaQueers</option>
+              <option value="youth-club">Youth Club</option>
+              <option value="act-up-germany">Act Up Germany</option>
+              <option value="queer-refugees-unite">Queer Refugees Unite</option>
+              <option value="pride-parade">Pride Parade</option>
+            </select>
+
+            <button type="submit">Participate</button>
+          </form>
+      </section>
+
+      <section>
+        <div class="find-us-card">
+          <h3>Opening Hours</h3>
+          <p>Tues – Sat</p>
+          <p>09:00 – 15:00</p>
+          <p>Sun – Mon</p>
+          <p>Closed</p>
+        </div>
+        <div class="find-us-card">
+          <h3>Address</h3>
+          <p>LGPTQ+ Club</p>
+          <p>Leipziger Straße 1</p>
+          <p>12345 Leipzig</p>
+          <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+        </div>
+      </section>
+      <section>
+        <div id="map-container">
+        <iframe id="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d258573.89378025012!2d12.302184885911828!3d51.34188746838422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b171f6f9799f53%3A0x420ad308d0a69a37!2sLeipzig%2C%20Germany!5e0!3m2!1sen!2suk!4v1632391635455!5m2!1sen!2suk"
+            width="700" height="500" <!-- Set the height based on the aspect ratio (16:9) -->
+            style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+        </div>
+      </section>
+      </article>
     </main>
 
     <!-- Footer -->
     <footer>
-        <ul id="social-media">
-            <li>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">
-                    <i class="fa-brands fa-square-instagram"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
-                    <i class="fa-brands fa-square-facebook"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our X-Twitter page (opens in a new tab)">
-                    <i class="fa-brands fa-square-x-twitter"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Youtube page (opens in a new tab)">
-                    <i class="fa-brands fa-square-youtube"></i>
-                </a>
-            </li>
-        </ul>
+      <ul id="social-media">
+        <li>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our X-Twitter page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-square-x-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Youtube page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-square-youtube"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
-    
+
     <!-- Font Awesome Kit -->
-    <script src="https://kit.fontawesome.com/5b652b7654.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/5b652b7654.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
