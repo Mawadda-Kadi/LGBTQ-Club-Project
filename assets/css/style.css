@@ -206,6 +206,10 @@ main {
     background: linear-gradient(45deg, #f2f2f2, #e6e6e6, #fff8e7);
 }
 
+.home-card h2 {
+    color: #800080;
+}
+
 .home-card:hover,
 .resources-card:hover,
 .find-us-card:hover {
@@ -226,7 +230,7 @@ main {
 
         /* to make each item distinguished*/
 .list-item-beginning {
-    text-decoration: underline palevioletred;
+    text-decoration: underline #800080;
     text-transform: uppercase;
     font-weight: 500;
 }
