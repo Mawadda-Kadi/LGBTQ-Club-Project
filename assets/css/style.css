@@ -155,15 +155,15 @@ main {
     background-color: #fff8e7;
 }
 
-/* Home Cards */
-#home-layout {
+/* Home Cards & Resources Cards */
+#home-layout, #resources-layout {
     display: flex;
     flex-wrap: wrap;
     /* to center the items horizontally */
     justify-content: center;
 }
 
-.home-card {
+.home-card, .resources-card {
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     max-width: 400px;
@@ -183,7 +183,7 @@ main {
     background: linear-gradient(45deg, #f2f2f2, #e6e6e6, #fff8e7);
 }
 
-.home-card:hover {
+.home-card:hover, .resources-card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
     background: lineargradient(45deg, #f6f2ea, #fff8e7);
@@ -219,6 +219,7 @@ main {
         5px 0 0 0 rgba(204, 204, 204, 0.3),
         -5px 0 0 0 rgba(204, 204, 204, 0.3),
         0 5px 0 0 rgba(204, 204, 204, 0.3);
+    background: linear-gradient(45deg, #f2f2f2, #e6e6e6, #fff8e7);
 }
 
 .events-card-image {
@@ -275,6 +276,8 @@ main {
         }
     }
 }
+
+
 
 /* Find Us Cards */
 #find-us-layout {
