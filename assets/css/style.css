@@ -16,13 +16,14 @@ body {
     /* generic Project styles */
     color: #000;
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.3rem;
 }
 
 /* Header */
 header {
     background-color: #800080;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 4px 4px #3a3a3a;
     padding: 0 1rem;
     z-index: 99;
     position: fixed;
@@ -89,7 +90,7 @@ nav {
 
 /* Main Content*/
 main {
-    background-color: #fbd7ef;
+    background-color: #fbdef1;
     flex-grow: 1;
     margin-top: 40px;
 }
@@ -143,27 +144,30 @@ main {
     color: #fff;
     text-transform: capitalize;
     font-size: 110%;
+    text-align: center;
 }
 
 .subtitle {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #800080;
-    font-size: 1.8rem;
+    color: #000;
+    font-size: 1.5rem;
     margin: 40px;
     padding: 20px;
     font-weight: bold;
-    background-color: #fff8e7;
 }
 
+
 /* Home Cards & Resources Cards */
-#home-layout, #resources-layout {
+#home-layout,
+#resources-layout {
     display: flex;
     flex-wrap: wrap;
     /* to center the items horizontally */
     justify-content: center;
 }
 
-.home-card, .resources-card {
+.home-card,
+.resources-card {
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     max-width: 400px;
@@ -175,22 +179,29 @@ main {
     /* ensures that each card grows to fill the available space */
     flex-grow: 1;
     text-align: left;
-    transition: box-shadow 0.3s ease
-    -in-out;
+    transition: box-shadow 0.3s ease -in-out;
     border: 5px solid #ddd;
     transform: translateY(0);
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
     background: linear-gradient(45deg, #f2f2f2, #e6e6e6, #fff8e7);
 }
 
-.home-card:hover, .resources-card:hover {
+.home-card:hover,
+.resources-card:hover,
+.find-us-card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
-    background: lineargradient(45deg, #f6f2ea, #fff8e7);
+    background: lineargradient(45deg, #e6e6e6, #fff8e7, #f2f2f2);
 }
 
 #values-list {
     list-style-type: none;
+}
+
+.resources-card-image {
+    border: 2px solid #800080;
+    box-sizing: border-box;
+    width: fit-content;
 }
 
 /* to make each item distinguished*/
@@ -209,7 +220,6 @@ main {
 }
 
 .events-card {
-    background: #fff8e7;
     border-radius: 24px;
     display: flex;
     flex-direction: column;
@@ -220,6 +230,7 @@ main {
         -5px 0 0 0 rgba(204, 204, 204, 0.3),
         0 5px 0 0 rgba(204, 204, 204, 0.3);
     background: linear-gradient(45deg, #f2f2f2, #e6e6e6, #fff8e7);
+    border: 5px solid #ddd;
 }
 
 .events-card-image {
@@ -243,7 +254,7 @@ main {
 
     h3 {
         margin: 0;
-        font-size: 1.5em;
+        font-size: 1.5rem;
         max-width: 100%;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -277,7 +288,16 @@ main {
     }
 }
 
-
+#important {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #800080;
+    font-size: 1rem;
+    margin: 40px;
+    padding: 20px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #f2f2f2, #e6e6e6, #fff8e7);
+    border: 2px dotted #800080;
+}
 
 /* Find Us Cards */
 #find-us-layout {
@@ -294,12 +314,13 @@ main {
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
-    background-color: #fff8e7;
+    background: linear-gradient(45deg, #f2f2f2, #e6e6e6, #fff8e7);
     flex: 1;
     /* to make each card take up an equal amount of space on its row */
     flex-grow: 1;
     /* to ensure that each card grows to fill the available space */
     text-align: left;
+    border: 5px solid #ddd;
 }
 
 /* Map */
@@ -400,6 +421,7 @@ footer {
 
     #menu>li {
         padding-left: 1rem;
+        font-weight: 600;
     }
 
     .nav-toggle-label {
@@ -418,9 +440,12 @@ footer {
 
     /* Hero Image */
     #cover-text {
-        max-width: 170px;
+        max-width: 200px;
         right: 50px;
         font-size: larger;
+    }
+    #cover-text>h3 {
+        text-align: center;
     }
 
     /* Events Card */
