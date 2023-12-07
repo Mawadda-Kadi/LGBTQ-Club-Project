@@ -13,10 +13,10 @@
     <title>LGBTQ+ Club</title>
     
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/madia/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/madia/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/madia/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="../assets/madia/favicon_io/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/media/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/media/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/media/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./assets/media/favicon_io/site.webmanifest">
     
     <!-- StyleSheet -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -66,6 +66,37 @@
         <div>
             <h2 class="subtitle">Our Centre is open to our entire community to amplify all our voices, breakdown stigmas and support each other</h2>
         </div>
+        </section>
+
+        <!-- Sign-up Form -->
+        <section id="signup-section">
+            <h2 class="subtitle">Sign Up for Our Events</h2>
+            <form id="signup-form">
+                <label for="full-name" placeholder="Enter Your Full Name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required>
+        
+                <label for="email" placeholder="Enter Your Email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="pronouns">Preferred Pronouns:</label>
+                <select id="pronouns" name="pronouns" required>
+                    <option value="she">She/Her</option>
+                    <option value="he">He/Him</option>
+                    <option value="they">They/Them</option>
+                    <option value="other">Other</option>
+                </select>
+        
+                <label for="event">Select Event:</label>
+                <select id="event" name="event" required>
+                    <option value="drama-queers">DramaQueers</option>
+                    <option value="youth-club">Youth Club</option>
+                    <option value="act-up-germany">Act Up Germany</option>
+                    <option value="queer-refugees-unite">Queer Refugees Unite</option>
+                    <option value="pride-parade">Pride Parade</option>
+                </select>
+        
+                <button type="submit">Participate</button>
+            </form>
         </section>
 
         <section id="find-us-layout">
