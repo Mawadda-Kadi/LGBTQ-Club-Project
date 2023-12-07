@@ -123,12 +123,15 @@ main {
     position: absolute;
     bottom: 30px;
     width: 45%;
-    max-width: 145px;
+    max-width: 235px;
+    min-width: 200px;
     min-height: 80px;
     padding-top: 10px;
     padding-left: 10px;
     margin-left: 20px;
     padding-right: 10px;
+    box-sizing: border-box;
+
 }
 
 #cover-text>h2 {
@@ -556,7 +559,6 @@ footer {
 
     /* Hero Image */
     #cover-text {
-        max-width: 200px;
         right: 50px;
         font-size: larger;
     }
