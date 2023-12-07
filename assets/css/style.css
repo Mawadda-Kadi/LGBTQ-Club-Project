@@ -148,8 +148,24 @@ main {
 }
 
 /* Welcome Section */
+#welcome-section {
+    text-align: center;
+}
 
+.welcome-message h2 {
+    font-size: 2.5rem;
+    color: #800080;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 
+.welcome-message p {
+    font-family: 'Roboto Condensed', sans-serif;
+        color: #000;
+        font-size: 1.5rem;
+        padding: 20px;
+        font-weight: bold;
+}
 
 .subtitle {
     font-family: 'Roboto Condensed', sans-serif;
@@ -160,6 +176,41 @@ main {
     font-weight: bold;
 }
 
+/* Testimonials Section */
+#testimonials-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#testimonials-section h2 {
+    font-size: 2.5rem;
+    color: #800080;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.subtitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000;
+    font-size: 1.5rem;
+    margin: 40px;
+    padding: 20px;
+    font-weight: bold;
+}
 
 /* Home Cards & Resources Cards */
 #home-layout,
