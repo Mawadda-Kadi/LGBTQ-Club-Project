@@ -165,10 +165,10 @@ main {
 
 .welcome-message p {
     font-family: 'Roboto Condensed', sans-serif;
-        color: #000;
-        font-size: 1.5rem;
-        padding: 20px;
-        font-weight: bold;
+    color: #000;
+    font-size: 1.5rem;
+    padding: 20px;
+    font-weight: bold;
 }
 
 .subtitle {
@@ -180,10 +180,9 @@ main {
     font-weight: bold;
 }
 
-/* Home Cards, Resources Cards & Events Card */
+/* Home Cards & Resources Cards */
 #home-layout,
-#resources-layout
-#events-layout {
+#resources-layout {
     display: flex;
     flex-wrap: wrap;
     /* to center the items horizontally */
@@ -191,8 +190,7 @@ main {
 }
 
 .home-card,
-.resources-card
-.events-card {
+.resources-card {
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     max-width: 400px;
@@ -212,16 +210,11 @@ main {
     background: linear-gradient(45deg, #f2f2f2, #e6e6e6, #fff8e7);
 }
 
-.events-card {
-    min-width: 280px;
-}
-
-.home-card h2, .events-card h3 {
+.home-card h2 {
     color: #800080;
 }
 
 .home-card:hover,
-.events-card:hover,
 .resources-card:hover,
 .find-us-card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -232,12 +225,6 @@ main {
 #values-list {
     list-style-type: none;
 }
-.events-card-image {
-    box-sizing: border-box;
-        width: fit-content;
-        align-items: center;
-
-}
 
 .resources-card-image {
     border: 2px solid #800080;
@@ -245,7 +232,7 @@ main {
     width: fit-content;
 }
 
-        /* to make each item distinguished*/
+/* to make each item distinguished*/
 .list-item-beginning {
     text-decoration: underline #800080;
     text-transform: uppercase;
@@ -279,6 +266,52 @@ main {
     color: #333;
 }
 
+/* Events Cards */
+/* Home Cards & Resources Cards */
+#events-layout {
+    display: flex;
+    flex-wrap: wrap;
+    /* to center the items horizontally */
+    justify-content: center;
+}
+
+.events-card {
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    min-width: 280px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    /* to make each card take up an equal amount of space on its row */
+    flex: 1;
+    /* ensures that each card grows to fill the available space */
+    flex-grow: 1;
+    text-align: left;
+    transition: box-shadow 0.3s ease -in-out;
+    border: 5px solid #ddd;
+    transform: translateY(0);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    background: linear-gradient(45deg, #f2f2f2, #e6e6e6, #fff8e7);
+}
+
+.events-card h3 {
+    color: #800080;
+}
+
+.events-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    background: lineargradient(45deg, #e6e6e6, #fff8e7, #f2f2f2);
+}
+
+
+.events-card-image {
+    box-sizing: border-box;
+    width: fit-content;
+    align-items: center;
+}
+
 #important {
     font-family: 'Roboto Condensed', sans-serif;
     color: #800080;
@@ -292,7 +325,7 @@ main {
 
 /* Sign Up Form */
 #signup-section {
-    background-color:#f3f0e9;
+    background-color: #f3f0e9;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -306,7 +339,7 @@ main {
     font-weight: 500;
     font-family: 'Outfit', sans-serif;
     font-size: 1.5rem;
-    color:#800080;
+    color: #800080;
     padding-bottom: 20px;
 
 
@@ -374,7 +407,7 @@ button:hover {
 }
 
 .find-us-card h3 {
-    color:#800080;
+    color: #800080;
     font-family: 'Outfit', sans-serif;
     font-weight: 500;
 }
@@ -421,6 +454,10 @@ footer {
     cursor: pointer;
 }
 
+/* Media Query: srceens (min-width: 450px) and (max-width: 768px) */
+@media screen and (min-width: 420px) and (max-width: 768px) {
+
+
 /* Media Query: tablets and larger (769px and up) */
 @media screen and (min-width: 769px) {
 
@@ -457,46 +494,76 @@ footer {
         right: 50px;
         font-size: larger;
     }
+
     #cover-text>h3 {
         text-align: center;
     }
- 
+
     /* Welcome Section & Testimonials Section */
     #welcome-section,
     #testimonials-section {
-         padding: 60px 20px;
+        padding: 60px 20px;
     }
-    
+
     .welcome-message h2,
     #testimonials-section h2 {
-         font-size: 3rem;
+        font-size: 3rem;
     }
 
     .welcome-message p,
     .testimonial p {
         font-size: 1.2rem;
     }
-    
+
     .testimonial {
         max-width: 800px;
     }
 
+    /* Events Card */
+   
+
     /* Sign Up Form */
-  
+
     #signup-section {
         margin: 40Px;
     }
+
     #map-container {
         min-width: 600px;
         margin: 40px 20px;
     }
 }
 
-    /* Larger devices (laptops and desktops, 992px and up) */
-    @media screen and (min-width: 992px) {
+/* Larger devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
 
-        /* Header */
-        #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
+    /* Header */
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* Events Cards */
+    #events-layout {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .events-card {
+        flex-direction: row-reverse;
+    }
+
+    /* to reverse order for odd cards */
+    .events-card:nth-of-type(odd) .events-card-image {
+        order: 2;
+
+
+        .events-card-image {
+            width: 100%;
+            max-width: 240px;
+        }
+
+        img {
+            max-width: 240px;
         }
     }
+}
