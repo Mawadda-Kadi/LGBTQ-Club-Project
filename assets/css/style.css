@@ -318,7 +318,7 @@ main {
 
 #signup-form {
     display: grid;
-    gap: 20px;
+    gap: 10px;
 }
 
 label {
