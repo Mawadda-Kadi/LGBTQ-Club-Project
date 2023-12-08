@@ -190,6 +190,11 @@ main {
     padding: 10px;
 }
 
+#left {
+    text-align: left;
+    font-size: 1.4rem;
+}
+
 /* Home Cards, Events Cards & Resources Card */
 #home-layout,
 #events-layout,
@@ -498,6 +503,10 @@ footer {
    .subtitle {
        font-size: 1.5rem;
        padding: 20px;
+   }
+
+   #left {
+    font-size: 1.6rem;
    }
 
     /* Sign Up Form */
