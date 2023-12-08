@@ -156,19 +156,12 @@ main {
     text-align: center;
 }
 
-.welcome-message h2 {
-    font-size: 2.5rem;
+.welcome-message h1 {
+    font-size: 1.7rem;
     color: #800080;
     margin-top: 40px;
     margin-bottom: 20px;
-}
-
-.welcome-message p {
-    font-family: 'Roboto Condensed', sans-serif;
-        color: #000;
-        font-size: 1.5rem;
-        padding: 20px;
-        font-weight: bold;
+    padding: 0 10px;
 }
 
 /* Subtitles Section */
@@ -253,6 +246,7 @@ main {
 #values-list {
     list-style-type: none;
 }
+
 .events-card-image {
     box-sizing: border-box;
     width: 100%;
@@ -349,8 +343,6 @@ main {
     font-size: 1.5rem;
     color:#800080;
     padding-bottom: 20px;
-
-
 }
 
 #signup-form {
@@ -477,18 +469,17 @@ footer {
          padding: 60px 20px;
     }
     
-    .welcome-message h2,
+    .welcome-message h1,
     #testimonials-section h2 {
-         font-size: 3rem;
+         font-size: 2.5rem;
     }
 
-    .welcome-message p,
-    .testimonial p {
-        font-size: 1.2rem;
-    }
-    
     .testimonial {
         max-width: 800px;
+    }
+
+    .testimonial p {
+        font-size: 1.2rem;
     }
 
    /* Subtitles Section */
@@ -510,7 +501,6 @@ footer {
    }
 
     /* Sign Up Form */
-  
     #signup-section {
         margin: 40Px;
     }
@@ -526,5 +516,10 @@ footer {
         /* Header */
         #menu a:hover {
             border-bottom: 1px solid #3a3a3a;
+        }
+
+        .welcome-message h1,
+        #testimonials-section h2 {
+            font-size: 3rem;
         }
     }
