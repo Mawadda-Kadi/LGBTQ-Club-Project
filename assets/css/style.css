@@ -205,7 +205,7 @@ main {
     /* ensures that each card grows to fill the available space */
     flex-grow: 1;
     text-align: left;
-    transition: box-shadow 0.3s ease -in-out;
+    transition: box-shadow 0.3s ease-in-out;
     border: 5px solid #ddd;
     transform: translateY(0);
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -215,6 +215,7 @@ main {
 .events-card {
     min-width: 280px;
     align-items: center;
+    max-width: 350px;
 }
 
 .home-card h2, .events-card h3 {
@@ -235,9 +236,11 @@ main {
 }
 .events-card-image {
     box-sizing: border-box;
-        width: fit-content;
-        align-items: center;
-
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
 .resources-card-image {
@@ -386,7 +389,7 @@ button:hover {
     max-width: 600px;
     min-width: 290px;
     /* to center the container horizontally */
-    margin: 0 auto;
+    margin: 40px auto;
     overflow: hidden;
     position: relative;
     padding-bottom: 5%;
