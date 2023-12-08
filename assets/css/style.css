@@ -180,10 +180,10 @@ main {
     font-weight: bold;
 }
 
-/* Home Cards, Resources Cards & Events Card */
+/* Home Cards, EventsCards & Resources Card */
 #home-layout,
-#resources-layout
-#events-layout {
+#events-layout,
+#resources-layout {
     display: flex;
     flex-wrap: wrap;
     /* to center the items horizontally */
@@ -191,8 +191,8 @@ main {
 }
 
 .home-card,
-.resources-card
-.events-card {
+.events-card,
+.resources-card {
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     max-width: 400px;
@@ -492,7 +492,7 @@ footer {
     }
 }
 
-    /* Larger devices (laptops and desktops, 992px and up) */
+/* Larger devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
 
         /* Header */
