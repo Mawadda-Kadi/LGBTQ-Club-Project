@@ -171,20 +171,37 @@ main {
         font-weight: bold;
 }
 
+/* Subtitles Section */
+.subtitle-section {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 5px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.subtitle-section h1 {
+    font-family: 'Outfit' sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 10px;
+    color: #800080;
+    line-height: 1.3;
+}
+
+
 .subtitle {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #000;
-    font-size: 1.5rem;
-    margin: 40px;
-    padding: 20px;
+    color: #800080;
+    font-size: 1.3rem;
     font-weight: bold;
+    padding: 10px;
 }
 
 /* Home Cards, Events Cards & Resources Card */
 #home-layout,
 #events-layout,
 #resources-layout,
-#find-us-card {
+.find-us-layout {
     display: flex;
     flex-wrap: wrap;
     /* to center the items horizontally */
@@ -473,6 +490,24 @@ footer {
     .testimonial {
         max-width: 800px;
     }
+
+   /* Subtitles Section */
+   .subtitle-section {
+       padding: 40px;
+       text-align: center;
+   }
+
+   .subtitle-section h1 {
+       font-size: 1.6rem;
+       padding: 20px;
+       line-height: 1.5;
+   }
+
+
+   .subtitle {
+       font-size: 1.5rem;
+       padding: 20px;
+   }
 
     /* Sign Up Form */
   
