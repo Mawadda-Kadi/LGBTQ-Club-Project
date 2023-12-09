@@ -4,7 +4,7 @@ Welcome to the LGBTQ+ Club website, a vibrant online space and community hub bas
 
 This README provides an overview of the website, its features, and guidance on deployment.  
 
-### You can view the live site here: <https://mawadda-kadi.github.io/LGBTQ-Club-Project/>
+### The Live-Site can be viewed here: <https://mawadda-kadi.github.io/LGBTQ-Club-Project/>
 
 
 ## User Experience 
@@ -20,7 +20,7 @@ Defining the target audience is a critical step in creating effective user stori
 
 ### Secondary Target Audiences:
 
-####Allies and Supporters:
+#### Allies and Supporters:
 - Friends, family members, or allies of LGBTQ+ individuals who want to be part of a supportive community.
 - Allies looking to educate themselves about LGBTQ+ issues and find ways to support the community.
 
@@ -112,7 +112,7 @@ We use the 'Outfit' with main headings and titles and 'Roboto Condensed' fonts w
 
 ## Features 
 
-here are some of the main features and components used in the design: 
+Here are some of the main features and components used in the design: 
 
 ### Header: 
  
@@ -129,10 +129,16 @@ here are some of the main features and components used in the design:
 
 ### Cards: 
 
-/* Dont forget cards style */ **************
-
-- Cards for the home page, events, resources, and find-us sections. 
-- Cards have a box-shadow effect, border-radius, and a hover effect. 
+- Utilization of cards for the home page, events, resources, and find-us sections.
+- Cards exhibit a box-shadow effect, adding depth, and a border-radius for a more polished appearance.
+- Implementation of flexbox properties for enhanced responsiveness:
+    - Flex Display: Cards are arranged using flex containers for optimal layout control.
+    - Flex Wrap: Allows for wrapping of card items for better responsiveness on various screen sizes.
+    - Justify Content: Ensures equal spacing and alignment of cards within the flex container.
+- Incorporation of transition effects:
+    - Box-Shadow Transition: Smooth transition effects on box-shadow properties for a polished hover effect.
+- Application of linear gradients:
+    - Gradient Backgrounds: Linear gradients are utilized for background colors, providing a subtle 3D appearance and enhancing visual aesthetics.
 
 ### Testimonials Section:
 
@@ -155,7 +161,9 @@ here are some of the main features and components used in the design:
 
 ### Media Queries:
 
-- Responsive design with media queries for tablets and larger screens.
+- First-Mobile Development:
+Mobile-first development approach is adopted, ensuring a responsive design starting from mobile devices and progressively enhancing for larger screens.
+- Media queries are strategically employed to adjust styles and layouts based on different screen sizes.
 
 ### Colors and Styling:
 
@@ -240,3 +248,61 @@ Impact: Without backend support, critical functionalities like user management, 
 
 
 
+## Technologies Used
+
+- HTML5
+- CSS3
+- Chrome DevTools
+- Compress and resize images using [iloveimg](https://www.iloveimg.com/) & [TinyPNG](https://tinypng.com/)
+- HTML Validator: [W3C HTML Validator](https://validator.w3.org/)
+- CSS Validator: [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- CSS Gradient: [CSS Gradient](https://cssgradient.io/)
+- Color Palette: [My Color Space](https://mycolor.space/?hex=%23845EC2&sub=1)
+- Wireframes: [Balsamiq](https://balsamiq.com/)
+- JavaScript Code: `<script src="https://kit.fontawesome.com/5b652b7654.js" crossorigin="anonymous"></script>`
+- Multi-Device Website Mockup Generator: [Techsini](https://techsini.com/multi-mockup/)
+
+## Credits
+
+### Content
+
+- Font Awesome icons: [Font Awesome](https://fontawesome.com/)
+- Website content inspired by: [London LGBTQ+ Community Centre](https://londonlgbtqcentre.org/) and [LGBTQIA+|Handbook Germany](https://handbookgermany.de/en/lgbtiq)
+- Favicon from [favicon.io](https://favicon.io/emoji-favicons/rainbow-flag/)
+- Google Fonts: [Google Fonts](https://fonts.google.com/)
+
+### Media
+
+- Hero images from [Pexels](https://www.pexels.com/)
+- Events images from [Pexels](https://www.pexels.com/)
+- Map from [Google Maps](https://www.google.com/maps/@51.4596042,11.9955984,14z?entry=ttu)
+- Logos images on the Resources page from:
+  - [TransInterQueer](https://www.transinterqueer.org/en/welcome/)
+  - [Fliederlich](https://www.fliederlich.de/)
+  - [Queer Refugees](https://www.queer-refugees.de/aktuelles/)
+  - [Lesbenberatung Berlin](https://lesbenberatung-berlin.de/)
+  - [LSVD](https://www.lsvd.de/de/home)
+  - [LGBTQIA+|Handbook Germany](https://handbookgermany.de/en/lgbtiq)
+
+### Educational Resources
+
+- Main reference: Love Running Project from [Code Institute](https://learn.codeinstitute.net/dashboard)
+- Pseudo-class selectors: [CSS Tricks](https://css-tricks.com/pseudo-class-selectors/)
+- Markdown Syntax: [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
+- Ultimate Guide to Hero Images: [HubSpot](https://blog.hubspot.com/marketing/hero-image)
+- How to write good user stories: [Devbridge](https://www.devbridge.com/articles/how-to-write-good-user-stories/)
+- How to write README.md: [Code Institute Solutions](https://github.com/Code-Institute-Solutions/readme-template)
+- CSS Flexbox: [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- CSS Flexbox: [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp)
+- Responsive Cards: [W3Schools](https://www.w3schools.com/howto/howto_css_column_cards.asp)
+- Responsive Cards: [Stack Overflow](https://stackoverflow.com/questions/63793413/how-can-i-make-this-css-card-responsive)
+- iFrame: [TechTarget](https://www.techtarget.com/whatis/definition/IFrame-Inline-Frame)
+- What Is Google Lighthouse?: [Search Engine Journal](https://www.searchenginejournal.com/core-web-vitals/google-lighthouse/#close)
+
+
+## Steps on Deploying, Cloning, and Forking 
+
+
+
+
+Congratulations on exploring our LGBTQ+ Club README! Feel free to connect and be part of our thriving community! 🌈
