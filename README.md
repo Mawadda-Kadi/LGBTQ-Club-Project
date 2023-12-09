@@ -181,8 +181,37 @@ Mobile-first development approach is adopted, ensuring a responsive design start
 - Detailed information about the date, time, location, and theme of the event on the Events page.
 - Categorized resources for easy navigation based on topics like legal rights, health, and community support.
 
+## Testing
+
+### HTML & CSS Validator
+HTML and CSS code were validated using W3C validators to ensure standards compliance.
+The Results were no errors found on any pages.
+### Home
+
+### Events
+
+### Resources
+
+### Find Us
+
+### Style.css
 
 
+### Responsiveness:
+The website is designed to be responsive across various devices, ensuring a seamless user experience. 
+
+
+
+### The Lighthouse
+The LgbtQ+ Club Website was also tested through Chrome Dev Tools - Lighthouse. It was tested on four main areas - Performance, Accessibility, Best Practices and SEO.
+
+### Home
+
+### Events
+
+### Resources
+
+### Find Us
 
 
 
