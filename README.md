@@ -210,35 +210,40 @@ Mobile-first development approach is adopted, ensuring a responsive design start
 HTML and CSS code were validated using W3C validators to ensure standards compliance.
 The Results were no errors found on any pages.
 ### Home
+![home-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/234dc38f-4c4b-4dc9-adbe-3baabf5dd482)
 
 ### Events
+![events-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/dd366cd3-ffd2-465b-8166-fb8044735c4f)
 
 ### Resources
+![resources-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/adfde159-6962-4de3-9a70-3ebd9a1a6bd7)
 
 ### Find Us
+![find-us-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/b2f2e007-4154-4f8e-b287-77aa47930b21)
 
 ### Style.css
-
+![style css-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/4d4bd6b8-ab2e-4d6b-ad27-f743dfa2b6ed)
 
 ### Responsiveness:
 The website is designed to be responsive across various devices, ensuring a seamless user experience. 
+![home-mockup](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/4748c822-1e97-4b6d-8448-744a363e1489)
 
 
-
-### The Lighthouse
+### The Lighthouse Test:
 The LgbtQ+ Club Website was also tested through Chrome Dev Tools - Lighthouse. It was tested on four main areas - Performance, Accessibility, Best Practices and SEO.
 
 ### Home
+![home-performance](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/86f941d4-1393-4740-a4fc-f8d5bb49d0a0)
 
 ### Events
+![events-performance](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/732614d0-4cf3-4218-b608-2b71802f8644)
 
 ### Resources
+![resources-performance](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/3cf0ce17-45ae-4913-9103-b77d86542c44)
+
 
 ### Find Us
-
-
-
-
+![find-us-performance](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/9b631715-2bcd-4c82-af77-f75607c487df)
 
 
 ## Bugs
