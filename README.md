@@ -103,6 +103,29 @@ The design of the LGBTQ+ Club website incorporates imagery that aligns with the 
 
 ### Colour Scheme: 
 
+- Background Colors:
+#fce5f4 - Light pink (main background color for the main content)
+#f3f0e9 - Light beige (background color for certain sections like the testimonials and sign-up form)
+
+- Header and Navigation:
+#800080 - Purple (background color for the header and navigation bar)
+
+- Text Colors:
+#000 - Black (main text color)
+#fff - White (text color for links in the header)
+
+- Card Colors:
+#fff8e7 - Light yellow (background color for card hover effect)
+#f2f2f2 - Light gray (alternate background color for cards)
+
+- Testimonials Section:
+#333 - Dark gray (text color for testimonials section)
+
+- Form and Sign-Up Section:
+#660066 - Dark purple (button hover color)
+
+- Footer:
+#800080 - Purple (background color for the footer
 
 
 ### Typography:
