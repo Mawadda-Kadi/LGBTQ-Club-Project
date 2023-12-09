@@ -4,7 +4,8 @@ Welcome to the LGBTQ+ Club website, a vibrant online space and community hub bas
 
 This README provides an overview of the website, its features, and guidance on deployment.  
 
-### The Live-Site can be viewed here: <https://mawadda-kadi.github.io/LGBTQ-Club-Project/>
+### The Live-Site can be viewed here: 
+<https://mawadda-kadi.github.io/LGBTQ-Club-Project/>
 
 
 ## User Experience 
@@ -210,40 +211,35 @@ Mobile-first development approach is adopted, ensuring a responsive design start
 HTML and CSS code were validated using W3C validators to ensure standards compliance.
 The Results were no errors found on any pages.
 ### Home
-![home-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/234dc38f-4c4b-4dc9-adbe-3baabf5dd482)
 
 ### Events
-![events-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/dd366cd3-ffd2-465b-8166-fb8044735c4f)
 
 ### Resources
-![resources-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/adfde159-6962-4de3-9a70-3ebd9a1a6bd7)
 
 ### Find Us
-![find-us-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/b2f2e007-4154-4f8e-b287-77aa47930b21)
 
 ### Style.css
-![style css-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/4d4bd6b8-ab2e-4d6b-ad27-f743dfa2b6ed)
+
 
 ### Responsiveness:
 The website is designed to be responsive across various devices, ensuring a seamless user experience. 
-![home-mockup](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/4748c822-1e97-4b6d-8448-744a363e1489)
 
 
-### The Lighthouse Test:
+
+### The Lighthouse
 The LgbtQ+ Club Website was also tested through Chrome Dev Tools - Lighthouse. It was tested on four main areas - Performance, Accessibility, Best Practices and SEO.
 
 ### Home
-![home-performance](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/86f941d4-1393-4740-a4fc-f8d5bb49d0a0)
 
 ### Events
-![events-performance](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/732614d0-4cf3-4218-b608-2b71802f8644)
 
 ### Resources
-![resources-performance](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/3cf0ce17-45ae-4913-9103-b77d86542c44)
-
 
 ### Find Us
-![find-us-performance](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/9b631715-2bcd-4c82-af77-f75607c487df)
+
+
+
+
 
 
 ## Bugs
@@ -287,6 +283,8 @@ Fix: I checked the CSS styles applied to the map container and ensured proper ma
 
 
 ### Known Bugs:
+This is a simple website. Therefore, there is no bug so far.
+The following limitations, however, should be put into consideration:
 
 - Limited Content:
 
@@ -358,6 +356,40 @@ Impact: Without backend support, critical functionalities like user management, 
 
 
 ## Steps on Deploying, Cloning, and Forking 
+
+### Deploying:
+To deploy this project, follow the steps:
+
+Certainly! If you're using GitHub, you can simplify the instructions in your README.md as follows:
+
+### Deploying
+
+To deploy this project, follow these steps:
+
+**GitHub Pages:**
+   - Navigate to the "Settings" tab of your repository.
+   - Scroll down to the "GitHub Pages" section.
+   - Choose the branch you want to deploy (e.g., main or master).
+   - Your site will be available at `https://<your-username>.github.io/<repository-name>`.
+
+### Cloning
+
+To clone this repository, follow these steps:
+
+1. Copy the repository URL by clicking on the "Code" button and selecting either the HTTPS or SSH option.
+2. Open your Terminal or Command Prompt.
+3. Navigate to the directory where you want to clone the repository.
+4. Run the following command: git clone <repository_url>
+5. Move into the cloned directory using: cd <repository_directory>
+
+### Forking
+
+To fork this repository, follow these steps:
+
+1. Click on the "Fork" button on the top-right of the repository page.
+2. Choose whether to fork to your personal account or an organization.
+3. Wait for GitHub to create a copy of the repository in your account.
+4. Clone your forked repository using the steps mentioned above.
 
 
 
