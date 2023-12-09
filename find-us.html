@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Meta Tags for Search Engines -->
     <meta
       name="description"
       content="LGBTQ+ Club in Leipzig, Germany, Events and Resources for LGBTQ+ Community"
-    />
+    >
     <meta
       name="keywords"
       content="LGBTQ community, lgbt, community, event, resourses, lesbian, gay, queer, trans, bisexual, Leibzig, Germany"
-    />
+    >
 
     <!-- Title -->
     <title>LGBTQ+ Club</title>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/media/favicon_io/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/media/favicon_io/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/media/favicon_io/favicon-16x16.png" />
-    <link rel="manifest" href="./assets/media/favicon_io/site.webmanifest" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/media/favicon_io/apple-touch-icon.png"
+    >
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/media/favicon_io/favicon-32x32.png"
+    >
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/media/favicon_io/favicon-16x16.png"
+    >
+    <link rel="manifest" href="./assets/media/favicon_io/site.webmanifest">
 
     <!-- StyleSheet -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
 
   <body>
@@ -37,7 +51,7 @@
 
       <!-- Navigation Bar -->
       <!-- Navigation Bar Toggle -->
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <input type="checkbox" id="nav-toggle" name="nav-toggle">
       <label for="nav-toggle" class="nav-toggle-label">
         <i class="fa-solid fa-bars"></i>
       </label>
@@ -77,19 +91,36 @@
         </div>
       </section>
 
-    <!-- Sign-up Form -->
-    <article class="find-us-layout">
+      <!-- Sign-up Form -->
+      <article class="find-us-layout">
         <section id="signup-section">
-            <h2>Sign Up for Our Events</h2>
-            <form id="signup-form" action="feedback.html" method="post">
-                <label for="full-name">Full Name:</label>
-                <input type="text" id="full-name" name="full-name" placeholder="Enter Your Full Name" required />
-    
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter Your Email" required />
+          <h2>Sign Up for Our Events</h2>
+          <form
+            id="signup-form"
+            action="https://formdump.codeinstitute.net/"
+            method="POST"
+          >
+            <label for="full-name">Full Name:</label>
+            <input
+              type="text"
+              id="full-name"
+              name="full-name"
+              placeholder="Enter Your Full Name"
+              required
+            >
+
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter Your Email"
+              required
+            >
 
             <label for="pronouns">Preferred Pronouns:</label>
             <select id="pronouns" name="pronouns" required>
+              <option value="">Choose</option>
               <option value="she">She/Her</option>
               <option value="he">He/Him</option>
               <option value="they">They/Them</option>
@@ -98,42 +129,43 @@
 
             <label for="event">Select Event:</label>
             <select id="event" name="event" required>
+              <option value="">Choose</option>
               <option value="drama-queers">DramaQueers</option>
               <option value="youth-club">Youth Club</option>
               <option value="act-up-germany">Act Up Germany</option>
               <option value="queer-refugees-unite">Queer Refugees Unite</option>
               <option value="pride-parade">Pride Parade</option>
             </select>
-            <a href="feedback.html" class="submit-link">
-                <button type="submit">Participate</button>
-            </a>
+            <button type="submit" class="submit-link">Participate</button>
           </form>
-      </section>
+        </section>
 
-      <section>
-        <div class="find-us-card">
-          <h3>Opening Hours</h3>
-          <p>Tues – Sat</p>
-          <p>09:00 – 15:00</p>
-          <p>Sun – Mon</p>
-          <p>Closed</p>
-        </div>
-        <div class="find-us-card">
-          <h3>Address</h3>
-          <p>LGPTQ+ Club</p>
-          <p>Leipziger Straße 1</p>
-          <p>12345 Leipzig</p>
-          <p><i class="fa-solid fa-phone"></i> 0123456789</p>
-        </div>
-      </section>
-      <section>
-        <div id="map-container">
-        <iframe id="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d258573.89378025012!2d12.302184885911828!3d51.34188746838422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b171f6f9799f53%3A0x420ad308d0a69a37!2sLeipzig%2C%20Germany!5e0!3m2!1sen!2suk!4v1632391635455!5m2!1sen!2suk"
-            width="700" height="500" <!-- Set the height based on the aspect ratio (16:9) -->
-            style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
-        </div>
-      </section>
+        <!-- Find Us Cards -->
+        <section>
+          <div class="find-us-card">
+            <h3>Opening Hours</h3>
+            <p>Tues – Sat</p>
+            <p>09:00 – 15:00</p>
+            <p>Sun – Mon</p>
+            <p>Closed</p>
+          </div>
+          <div class="find-us-card">
+            <h3>Address</h3>
+            <p>LGPTQ+ Club</p>
+            <p>Leipziger Straße 1</p>
+            <p>12345 Leipzig</p>
+            <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+          </div>
+        </section>
+
+        <!-- Map -->
+        <section>
+            <div id="map-container">
+                <iframe id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d258573.89378025012!2d12.302184885911828!3d51.34188746838422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b171f6f9799f53%3A0x420ad308d0a69a37!2sLeipzig%2C%20Germany!5e0!3m2!1sen!2suk!4v1632391635455!5m2!1sen!2suk"
+                    width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
       </article>
     </main>
 
