@@ -112,4 +112,131 @@ We use the 'Outfit' with main headings and titles and 'Roboto Condensed' fonts w
 
 ## Features 
 
+here are some of the main features and components used in the design: 
+
+### Header: 
+ 
+- Fixed header with a attractive purple background (#800080). 
+- Logo with a custom font ('Outfit'). 
+- Navigation menu with dropdown toggle for smaller screens to save space. 
+
+### Main Content: 
+
+- Background color for the main content area (#fce5f4). 
+- Different hero images with overlay text for various sections. 
+- Welcome section with a shadowed box and welcome message. 
+- Subtitles section with a shadowed box and titles. 
+
+### Cards: 
+
+/* Dont forget cards style */ **************
+
+- Cards for the home page, events, resources, and find-us sections. 
+- Cards have a box-shadow effect, border-radius, and a hover effect. 
+
+### Testimonials Section:
+
+- Testimonials section with a light background (#f3f0e9).
+- Testimonial cards with a box-shadow effect.
+
+### Sign-Up Form:
+
+- Sign-up section with a light background (#f3f0e9).
+- Form with labeled input fields, a submit button, and styling for form elements.
+
+### Map Section:
+
+- Map section with a container and styling for the map.
+
+### Footer:
+
+- Footer with a purple background (#800080).
+- Social media icons in the footer.
+
+### Media Queries:
+
+- Responsive design with media queries for tablets and larger screens.
+
+### Colors and Styling:
+
+- Consistent use of colors for text, backgrounds, and borders.
+- Hover effects for cards and buttons.
+- Box shadows and border-radius for depth and styling.
+
+
+
+## Future Features:
+
+- A prominent section on the home page displaying key details about the ubcomimg events.
+- Archive or section on the Events page showcasing details and highlights of previous LGBTQ+ Club gatherings.
+- Intuitive filters or categories for different types of events (e.g., workshops, support groups, parades). 
+- Detailed information about the date, time, location, and theme of the event on the Events page.
+- Categorized resources for easy navigation based on topics like legal rights, health, and community support.
+
+
+
+
+
+
+
+
+
+## Bugs
+
+### Bugs Fixed
+
+- Wrong Favicon Links:
+
+Bug: The website was configured with incorrect favicon links, resulting in missing favicon on all pages.
+Fix: I verified and updated the favicon links in the HTML <head> section by fixing a link typo. I ensured the links point to valid and existing favicon images.
+
+- Navigation Bar Responsiveness:
+
+Bug: The navigation bar (navbar) did not respond well to different screen sizes, leading to layout problems and usability issues on smaller devices.
+Fix: I implemented a responsive navigation design. I considered a mobile-friendly menu, such as a hamburger menu, for smaller screens. I used media queries to adjust styles and layout based on screen width.
+
+- Cover-Text Responsiveness:
+
+Bug: The cover text, positioned over hero images, lacked responsiveness on various screen sizes, leading to layout issues.
+Fix: I applied responsive design principles to the cover text. I used relative units (percentage) for dimensions and adjusted positioning using media queries. then I tested it on different devices to ensure proper responsiveness.
+
+- Events Cards Image Display Issue: (Main Issue)
+
+Bug: The initial implementation of the events cards resulted in poor responsiveness and improper display of images, requiring a complete code overhaul for better performance and visual presentation.
+Fix:
+HTML Structure:
+- I ensured each event card had a consistent and well-defined structure.
+- I used semantic HTML elements for better accessibility.
+CSS Styles:
+- I implemented the same style of already exsisting card code in Home page which gave them flexible and responsive layout using CSS Flexbox, transition and hover effect.
+- I set appropriate dimensions for the event card and image containers.
+
+- Logo Images Border:
+Bug: The initial attempt to enhance the appearance of logo images by applying borders resulted in images being smaller than the border size, even with the use of the object-fit property. A more effective solution was needed to achieve the desired visual effect.
+Fix: Instead of applying the object-fit property, I set a max-width property for the container (id="image-card-resources") to define the maximum width of the logo image. This ensured that the container won't expand beyond a certain size, preventing the border from being smaller or larger than intended.
+
+- Map Alignment Issue:
+
+Bug: The map on the website was not aligned correctly, causing overlap with surrounding elements.
+Fix: I checked the CSS styles applied to the map container and ensured proper margins and padding. Then I adjusted the dimensions and positioning as needed.
+
+
+### Known Bugs:
+
+- Limited Content:
+
+Issue: The Events and Resources sections suffer from a shortage of content, potentially resulting in an unsatisfactory user experience.
+Impact: Inadequate content may lead to reduced engagement and fail to meet user expectations.
+
+- Limited Interactivity:
+
+Issue: The website lacks interactive features, such as real-time updates or mechanisms for user feedback.
+Impact: Limited interactivity can diminish user engagement and hinder the site's ability to gather valuable feedback for improvement.
+
+- Lack of Backend Implementation:
+
+Issue: Absence of backend functionality results in the non-persistent storage of user registration data. This means an inability to manage, retrieve, or analyze user information.
+Impact: Without backend support, critical functionalities like user management, data analysis, and secure data storage are compromised.
+
+
 
