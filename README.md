@@ -92,13 +92,13 @@ Returning users can easily access their favorite sections through the navigation
 ### WireFrames"
 
 ### Home
-![home-wireframe](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/eb5603e4-7160-436b-9375-d5daca54447c)
+![home-wireframe](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/3fb5314c-24d4-424f-9137-ff5bc9f8f36e)
 
 ### Events & Resources
-![events   resources wireframe](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/98ed6570-e6ad-451f-bcc6-720c85dfe72d)
+![events   resources wireframe](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/e00b2bd1-e519-48ef-b393-3ea221955e8b)
 
 ### Find Us
-![find-us- wireframe](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/7ac04f27-190c-46d6-99f3-3aad8144d41d)
+![find-us- wireframe](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/9b72421e-8128-4118-83cd-d1fc9e347125)
 
 
 
