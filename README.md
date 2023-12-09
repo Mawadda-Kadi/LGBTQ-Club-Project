@@ -89,6 +89,19 @@ Returning users can easily access their favorite sections through the navigation
 
 ## Design 
 
+### WireFrames"
+
+### Home
+![home-wireframe](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/eb5603e4-7160-436b-9375-d5daca54447c)
+
+### Events & Resources
+![events   resources wireframe](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/98ed6570-e6ad-451f-bcc6-720c85dfe72d)
+
+### Find Us
+![find-us- wireframe](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/7ac04f27-190c-46d6-99f3-3aad8144d41d)
+
+
+
 ### Site Structure:
 
 - The website is structured with clear sections for Home, Events, Resources, and Find Us, that prioritizes user engagement, accessibility, and a visually appealing experience that aligns with the community's values.
@@ -211,34 +224,39 @@ Mobile-first development approach is adopted, ensuring a responsive design start
 HTML and CSS code were validated using W3C validators to ensure standards compliance.
 The Results were no errors found on any pages.
 ### Home
+![home-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/3ec4c34e-9767-4922-98a5-6d2991025fc2)
 
 ### Events
+![events-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/767a4da1-cde5-4603-8a79-bd7ab216b34e)
 
 ### Resources
+![resources-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/f9e9abb4-3d48-4264-bc4c-7244569efc25)
 
 ### Find Us
+![find-us-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/a37f6b74-a8b2-4b0e-b037-9d5bbe04bdc4)
 
 ### Style.css
-
+![style css-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/e9afa3ab-b1f7-41f7-892e-390fc9e05483)
 
 ### Responsiveness:
 The website is designed to be responsive across various devices, ensuring a seamless user experience. 
-
+![home-mockup](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/9a657de6-236f-4310-8989-6865e9100723)
 
 
 ### The Lighthouse
 The LgbtQ+ Club Website was also tested through Chrome Dev Tools - Lighthouse. It was tested on four main areas - Performance, Accessibility, Best Practices and SEO.
 
 ### Home
+![home-performance](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/d77b410e-e7ac-4f71-9151-a05a08231a50)
 
 ### Events
+![events-performance](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/0ea2c0e8-3256-4041-81aa-d7c9109bad0e)
 
 ### Resources
+![resources-performance](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/d6bb586d-7acc-4fed-a1d5-7bfa4be073a1)
 
 ### Find Us
-
-
-
+![find-us-performance](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/826d1395-7b27-42c4-aa81-f5bd79703d84)
 
 
 
