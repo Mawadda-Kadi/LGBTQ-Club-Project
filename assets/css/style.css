@@ -1,14 +1,14 @@
-/* Google Font Import */
+/* ------------------------------------- Google Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&family=Roboto+Condensed:wght@300&display=swap');
 
-/* Asteric Wildcard Selector to override default styles added by the browser */
+/* ------------ Asteric Wildcard Selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* General Styles */
+/* ------------------------------------- General Styles */
 body {
     min-height: 100vh;
     display: flex;
@@ -17,9 +17,12 @@ body {
     color: #000;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
 }
 
-/* Header */
+/* ------------------------------------- Header */
 header {
     background-color: #800080;
     width: 100%;
@@ -45,7 +48,7 @@ h1 {
     margin: 0;
 }
 
-/* Navigation Bar*/
+/* ------------------------------------- Navigation Bar*/
 
 #menu {
     font-size: 1rem;
@@ -62,7 +65,7 @@ h1 {
     border-bottom: 1px solid #fff;
 }
 
-/* Navigation bar styles with dropdown toggle */
+/* ------------------------------------- Navigation bar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #800080;
@@ -74,7 +77,7 @@ nav {
     top: 100%;
 }
 
-/* Navigation Toggle */
+/* ------------------------------------- Navigation Toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -89,14 +92,14 @@ nav {
     color: #fff
 }
 
-/* Main Content*/
+/* ------------------------------------- Main Content*/
 main {
-    background-color: #fce5f4;
+    background-color: #faf4f8;
     flex-grow: 1;
     margin-top: 40px;
 }
 
-/* Hero Images */
+/* ------------------------------------- Hero Images */
 .hero-image {
     height: 350px;
     width: 100%;
@@ -151,7 +154,7 @@ main {
     text-align: center;
 }
 
-/* Welcome Section */
+/* ------------------------------------- Welcome Section */
 #welcome-section {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -166,7 +169,7 @@ main {
     padding: 0 10px;
 }
 
-/* Subtitles Section */
+/* ------------------------------------- Subtitles Section */
 .subtitle-section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 5px solid #ddd;
@@ -197,7 +200,7 @@ main {
     font-size: 1.4rem;
 }
 
-/* Home Cards, Events Cards & Resources Card */
+/* --------------------- Home Cards, Events Cards & Resources Card */
 #home-layout,
 #events-layout,
 #resources-layout,
@@ -228,7 +231,15 @@ main {
     border: 5px solid #ddd;
     transform: translateY(0);
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
-    background: linear-gradient(45deg, #f2f2f2, #e6e6e6, #fff8e7);
+    background-color: #fce5f4;
+}
+
+.mission-h2 {
+    margin-top: 30px;
+}
+
+.home-card li {
+    margin-bottom: 20px;
 }
 
 .events-card {
@@ -240,6 +251,8 @@ main {
 .home-card h2,
 .events-card h3 {
     color: #800080;
+    margin-bottom: 20px;
+    font-weight: 800;
 }
 
 .home-card:hover,
@@ -248,7 +261,6 @@ main {
 .find-us-card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
-    background: linear-gradient(45deg, #e6e6e6, #fff8e7, #f2f2f2);
 }
 
 #values-list {
@@ -277,7 +289,7 @@ main {
 
 .resources-card h3 {
     color: #800080;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .find-us-card {
@@ -294,12 +306,11 @@ main {
 
 /* to make each item distinguished*/
 .list-item-beginning {
-    text-decoration: underline #800080;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 900;
 }
 
-/* Testimonials Section */
+/* ------------------------------------- Testimonials Section */
 #testimonials-section {
     padding: 40px 20px;
     text-align: center;
@@ -308,11 +319,13 @@ main {
 #testimonials-section h2 {
     font-size: 2.5rem;
     color: #800080;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+    margin-top: 90px;
 }
 
 .testimonial {
-    background-color: #f3f0e9;
+    /* background-color: #f3f0e9; */
+    background-color: #fce5f4;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 600px;
@@ -324,6 +337,8 @@ main {
 .testimonial p {
     font-size: 1.2rem;
     color: #333;
+    font-weight: 700;
+    line-height: 1.5;
 }
 
 #important {
@@ -418,7 +433,7 @@ button:hover {
 footer {
     background-color: #800080;
     flex-shrink: 0;
-    height: 40px;
+    height: 60px;
 }
 
 #social-media {
@@ -426,6 +441,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    margin-top: 15px;
 }
 
 #social-media i {
@@ -494,7 +510,6 @@ footer {
 
     .testimonial p {
         font-size: 1.2rem;
-        line-height: 1.3;
     }
 
     /* Subtitles Section */
