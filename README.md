@@ -1,14 +1,14 @@
 # LGBTQ+ Club Website
 
-Welcome to the LGBTQ+ Club website, a vibrant online space and community hub based in Leipzig, Germany. Our mission is to provide a welcoming environment for all members of the LGBTQ+ community, fostering inclusivity, support, and celebration  
+Welcome to the LGBTQ+ Club website, a vibrant online space and community hub based in Leipzig, Germany. Our mission is to provide a welcoming environment for all members of the LGBTQ+ community, fostering inclusivity, support, and celebration
 
-This README provides an overview of the website, its features, and guidance on deployment.  
+This README provides an overview of the website, its features, and guidance on deployment.
 
-### The Live-Site can be viewed here: 
+### The Live-Site can be viewed here:
 <https://mawadda-kadi.github.io/LGBTQ-Club-Project/>
 
 
-## User Experience 
+## User Experience
 
 Defining the target audience is a critical step in creating effective user stories and tailoring your website to meet the needs of specific users.
 
@@ -87,7 +87,7 @@ As a user looking for the LGBTQ+ Club's location, I want an interactive map embe
 Returning users can easily access their favorite sections through the navigation menu. Stay updated on upcoming events and revisit valuable resources.
 
 
-## Design 
+## Design
 
 ### WireFrames"
 
@@ -111,11 +111,11 @@ Returning users can easily access their favorite sections through the navigation
 - Resource cards with logos, titles, concise descriptions and links of each LGBTQ+ support organization.
 - Contact information, opening hours, address, interactive map, and sign-up form are prominently displayed.
 
-### Imagery Used: 
+### Imagery Used:
 
-The design of the LGBTQ+ Club website incorporates imagery that aligns with the community's values, promoting inclusivity, diversity, and a sense of belonging. The choice of visuals aims to resonate with the emotions and experiences of the target audience. 
+The design of the LGBTQ+ Club website incorporates imagery that aligns with the community's values, promoting inclusivity, diversity, and a sense of belonging. The choice of visuals aims to resonate with the emotions and experiences of the target audience.
 
-### Colour Scheme: 
+### Colour Scheme:
 
 - Background Colors:
 #fce5f4 - Light pink (main background color for the main content)
@@ -147,24 +147,24 @@ We use the 'Outfit' with main headings and titles and 'Roboto Condensed' fonts w
 
 
 
-## Features 
+## Features
 
-Here are some of the main features and components used in the design: 
+Here are some of the main features and components used in the design:
 
-### Header: 
- 
-- Fixed header with a attractive purple background (#800080). 
-- Logo with a custom font ('Outfit'). 
-- Navigation menu with dropdown toggle for smaller screens to save space. 
+### Header:
 
-### Main Content: 
+- Fixed header with a attractive purple background (#800080).
+- Logo with a custom font ('Outfit').
+- Navigation menu with dropdown toggle for smaller screens to save space.
 
-- Background color for the main content area (#fce5f4). 
-- Different hero images with overlay text for various sections. 
-- Welcome section with a shadowed box and welcome message. 
-- Subtitles section with a shadowed box and titles. 
+### Main Content:
 
-### Cards: 
+- Background color for the main content area (#fce5f4).
+- Different hero images with overlay text for various sections.
+- Welcome section with a shadowed box and welcome message.
+- Subtitles section with a shadowed box and titles.
+
+### Cards:
 
 - Utilization of cards for the home page, events, resources, and find-us sections.
 - Cards exhibit a box-shadow effect, adding depth, and a border-radius for a more polished appearance.
@@ -214,7 +214,7 @@ Mobile-first development approach is adopted, ensuring a responsive design start
 
 - A prominent section on the home page displaying key details about the ubcomimg events.
 - Archive or section on the Events page showcasing details and highlights of previous LGBTQ+ Club gatherings.
-- Intuitive filters or categories for different types of events (e.g., workshops, support groups, parades). 
+- Intuitive filters or categories for different types of events (e.g., workshops, support groups, parades).
 - Detailed information about the date, time, location, and theme of the event on the Events page.
 - Categorized resources for easy navigation based on topics like legal rights, health, and community support.
 
@@ -239,7 +239,7 @@ The Results were no errors found on any pages.
 ![style css-test](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/e9afa3ab-b1f7-41f7-892e-390fc9e05483)
 
 ### Responsiveness:
-The website is designed to be responsive across various devices, ensuring a seamless user experience. 
+The website is designed to be responsive across various devices, ensuring a seamless user experience.
 ![home-mockup](https://github.com/Mawadda-Kadi/LGBTQ-Club-Project/assets/151715427/9a657de6-236f-4310-8989-6865e9100723)
 
 
@@ -373,12 +373,11 @@ Impact: Without backend support, critical functionalities like user management, 
 - What Is Google Lighthouse?: [Search Engine Journal](https://www.searchenginejournal.com/core-web-vitals/google-lighthouse/#close)
 
 
-## Steps on Deploying, Cloning, and Forking 
+## Steps on Deploying, Cloning, and Forking
 
 ### Deploying:
 To deploy this project, follow the steps:
 
-Certainly! If you're using GitHub, you can simplify the instructions in your README.md as follows:
 
 ### Deploying
 
